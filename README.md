@@ -32,7 +32,7 @@ pip install -r requirements.txt
 2. Modify the `kernel_convolution.py` script to load your image file.
 3. Run the script to apply the convolution:
    ```bash
-   python lernel_convolution.py
+   python kernel_convolution.py
    ```
    The script reads the input image, converts it to grayscale, applies a 5x5 Gaussian blur kernel, and displays the resulting filtered image.
 
@@ -45,6 +45,3 @@ This project was used to understand:
 ## Future Work
 - Experiment with different kernels for edge detection, sharpening, and other image transformations.
 - Extend the project to process images in batches or integrate it into a more complex CNN pipeline.
-
-## License
-This project is licensed under the MIT License. See `LICENSE` for more details.
